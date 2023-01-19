@@ -134,7 +134,7 @@ Answer these questions:
 1. What are the `.` and `..` directories?
 1. Use the command line to generate a list of files in a directory that is output to a file. List the command that you would use on your system in your answer (and specify what system you’re using).
 1. Above and in class we used the `find` command. Look at the find command `find . -type f -name '*.txt'` (described above). What would you expect the output of this command to be? Use your knowledge from our discussion, or test this in the shell to see what happens.
-1. What are filters? We discussed 
+1. Devise a way to use `find`, `wc`, and a pipe to count how many csv files are in the sample file directory. Share your command, and share your count.   
 1. In what sorts of situations do you think that the command line interface would be useful or advantageous over the GUI? Give at least one example.
 1. Do you feel more comfortable using the command line? Why or why not?
 

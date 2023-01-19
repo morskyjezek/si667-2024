@@ -99,19 +99,20 @@ In the lab activity, you are asked to describe what the output of this command w
 * In performing preservation actions, you typically want everything to be reversible and tested in advance. Reversibility is not a hallmark of the command line (nor should it be assumed in a GUI environment).
 * Don't be afraid of the command line, do be cautious: there are not always built-in safeguards as in the GUI environment. If you delete something from the command line, for example, it will not be moved to the trash before deletion - it will be removed immediately. This is not a cause for alarm, but it is a reminder to make sure you are doing exactly what you want, know how to do it (or ask someone who does), and don't proceed too quickly.
 
-## Reflection Activity
+## Lab Activity
 
 Answer these questions:
 
-* Imagine that you have opened a window that gives access to the command line. What command would you use to determine what path you are currently located at?
-* What command would you use to move to another directory or folder?
-* What command would you use to list the contents of the directory or folder?
+1. Imagine that you have opened a window that gives access to the command line. What command would you use to determine what path you are currently located at?
+1. What command would you use to move to another directory or folder?
+1. What command would you use to list the contents of the directory or folder?
   * Can you get a basic list and an advanced list (that shows permissions, file size, path, etc)? What options would you use to generate the advanced list?
-* What are the `.` and `..` directories?
-* Use the command line to generate a list of files in a directory that is output to a file. List the command that you would use on your system in your answer (and specify what system you’re using).
-* Above and in class we used the `find` command. Look at the find command `find . -type f -name '*.txt'` (described above). What would you expect the output of this command to be? Use your knowledge from our discussion, or test this in the shell to see what happens.
-* In what sorts of situations do you think that the command line interface would be useful or advantageous over the GUI? Give at least one example.
-* Do you feel more comfortable using the command line? Why or why not?
+1. What are the `.` and `..` directories?
+1. Use the command line to generate a list of files in a directory that is output to a file. List the command that you would use on your system in your answer (and specify what system you’re using).
+1. Above and in class we used the `find` command. Look at the find command `find . -type f -name '*.txt'` (described above). What would you expect the output of this command to be? Use your knowledge from our discussion, or test this in the shell to see what happens.
+1. What are filters? We discussed 
+1. In what sorts of situations do you think that the command line interface would be useful or advantageous over the GUI? Give at least one example.
+1. Do you feel more comfortable using the command line? Why or why not?
 
 
 ### Credits and Additional Resources

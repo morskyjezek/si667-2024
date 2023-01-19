@@ -146,7 +146,7 @@ are both likely possible extensions for a tif file.
 1. What command would you use to list the contents of the directory or folder?
 1. Can you get a basic list and an advanced list (that shows permissions, file size, path, etc)? What options would you use to generate the advanced list?
 1. What are the `.` and `..` directories?
-1. Use the `ls` command, a filter (`*`), and a pipe to count all of the text files in the directory. 
+1. Use the `ls` command, a filter (`*`), and a pipe to count all of the text files in the directory. What command are you using? How would you modify this to look in the subdirectories? How could you modify this to look for other file types? 
 1. In what sorts of situations do you think that the command line interface would be useful or advantageous over the GUI? Give at least one example.
 1. Do you feel more comfortable using the command line? Why or why not?
 

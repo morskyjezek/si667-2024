@@ -59,6 +59,30 @@ resources, some of which are listed at the end of this document.
 * You can further define a specific path if you want the command to list files in another directory: `la -la /{MY Directory}/{MY subdirectory}`
 * outputting lists (print to file: `>`)
 
+### Filters
+
+The UNIX command line offers ways for us to filter data. For example, 
+what if you want to look for all of the files that are in JPEG format? 
+For this task, you can use file expansion wildcards. These are special 
+characters that the command line can use to filter results based on specific patterns.
+
+Here are two useful ones that we can use in file filtering:
+
+* `*` the asterisk character can be used to indicate a series of many characters. For example, the string `*.jpg` would look for any string with `.jpg` in it, but it may be preceded by any number of characters. This could be useful for looking for all of the JPEG files.
+* `?` the question mark can be used to stand in for one or zero single characters. For example, if you want to look for `.jpeg` or `.jpg`, you could use the question mark to filter like `.jp?g`, which would match both the 3-letter and 4-letter patterns.
+
+Note: this is generally a type of pattern matching, which is a larger topic. 
+If you're interested in more advanced pattern matching, then regular expressions (discussed below)
+are of more interest to you.  
+
+### Combining Commands, or Piping Data
+
+You can use the `|` and the `<` and `>` to move data between the commands. This stringing together, or "piping" 
+data in between operations is useful since each command does about one thing. The pipe moves the data out to the next command, while the brackets access from or write to a file.
+
+For example, you could use the `wc` command to count the lines in a file, pipe it to the `sort` command
+to order by number, then use the `head -n 1` command to display the first line, ultimately displaying the longest or shortest file in the results.
+
 ### Finding files
 
 The `find` command is a useful way to find files. The syntax is somewhat more complicated than

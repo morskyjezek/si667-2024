@@ -43,6 +43,7 @@ Git Bash (or other Windows flavors of the command line), you can use the option 
 The rest of this reference document will cover two main actions:
 
 1. Navigation - how to find where you are, move your location, and to look at other locations
+1. Combining & Refining - how to combine commands and to refine your requests with filters or matching patterns
 1. Inspection - how to learn more about files, look for specific kinds of files, or look at the contents of files
 
 ## Navigation 
@@ -60,6 +61,11 @@ This section covers commands that help you to find your way, move around, and to
 * creating directories (`mkdir`)
 * viewing/opening files (Unix: open / DOS: <type the file>; OR viewers like less(Unix)/more(Win); OR editors: vi, nano, ted and notepad)
 * copying/moving files (Mac: `cp` / `mv` / Windows: copy con/move)
+
+## Combining and Refining 
+
+This section includes information on how to combine commands, to refine your requests, and create 
+filters that matching patterns to look for specific types of information, like certain types of files
 
 ### Create File Lists
 
@@ -96,6 +102,11 @@ data in between operations is useful since each command does about one thing. Th
 
 For example, you could use the `wc` command to count the lines in a file, pipe it to the `sort` command
 to order by number, then use the `head -n 1` command to display the first line, ultimately displaying the longest or shortest file in the results.
+
+## Inspecting Files
+
+This section explores ways to look around the file system in more detailed ways, search for files 
+based on specific criteria, and to filter information from outputs and files
 
 ### Finding files
 
@@ -136,6 +147,8 @@ have a dot (`\.`), have a string of tif (`tif`), and then have zero or one insta
 character f (`f?`). In plain language, this expression will look in the current directory, 
 search all of the files, and return matches for files ending with `.tif` or `.tiff`, which
 are both likely possible extensions for a tif file. 
+
+_[TODO - GREP]_
 
 ### Other commands useful for inspecting files and the operating system
 

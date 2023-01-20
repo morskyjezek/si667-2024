@@ -10,14 +10,16 @@ Keep in mind there are differences between the command line and the visual inter
 
 _Note: where you see “Mac” below, this generally designates a UNIX-wide command, “Windows” is generally DOS-like._
 
-## General Actions
+## General Structure for a Command
 
 Most shell commands follow a typical syntax structure, which can be summarized like this:
 
 `command` + `options` + `arguments`
 
 The **command** is the short bit of text that you use to invoke a program, such as `ls`,
-`mkdir`, or `find`. The **options** are additional flags that give the program more
+`mkdir`, or `find`. This is the most basic part of the command. 
+Some commands can be run without any additional options or arguments.
+The **options** are additional flags that give the program more
 information about what you want it to do (e.g. `ls -a` or `mkdir -v`),
 or allow you provide additional information (e.g., `find -type f`). 
 Options are generally noted with a single hyphen followed by a letter 
@@ -25,7 +27,8 @@ Options are generally noted with a single hyphen followed by a letter
 or a double hyphen followed by a word (e.g., `--help`); in many cases,
 options are followed by additional information such as a number (e.g., `head -n 2`). 
 Finally, **arguments** provide the program with information and input, 
-often a file or file path. For example, `ls` requires the filepath of the location in which you want the files listed.
+often a file or file path. For example, `ls` can be supplied with a filepath of the 
+location where you want list the files.
 
 There are many commands, some of which are covered below. It can be confusing at first
 to remember all of the different commands, but don't worry - you're not alone, and

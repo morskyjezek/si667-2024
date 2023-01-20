@@ -123,8 +123,9 @@ character f (`f?`). In plain language, this expression will look in the current 
 search all of the files, and return matches for files ending with `.tif` or `.tiff`, which
 are both likely possible extensions for a tif file. 
 
-### Other commands of interest
+### Other commands useful for inspecting files and the operating system
 
+* `ps` lists the programs and processes that are currently running; if you run this without operators, it will show you what's running in the current container; if you run with the options aux, you will see all the processes on the operating system: `ps aux`
 * `df` gives information about the file system usage
 * `md5` creates an md5 checksum value
 * `hexdump` gives a hex view of the file, useful for searching for magic numbers

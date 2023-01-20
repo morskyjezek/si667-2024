@@ -40,7 +40,16 @@ resources, some of which are listed at the end of this document. If you're runni
 Git Bash (or other Windows flavors of the command line), you can use the option `-h` or 
 `--help` on many commands to display similar instructions or explanation.
 
-### Navigation
+The rest of this reference document will cover two main actions:
+
+1. Navigation - how to find where you are, move your location, and to look at other locations
+1. Inspection - how to learn more about files, look for specific kinds of files, or look at the contents of files
+
+## Navigation 
+
+This section covers commands that help you to find your way, move around, and to look at the contents of a location in the file system.
+
+### Wayfinding and Moving Around
 
 * determining where you are (Unix: `pwd` / DOS: `cd`)
 * moving within the directory structure (`cd`)
@@ -61,7 +70,7 @@ Git Bash (or other Windows flavors of the command line), you can use the option 
   * details (-l) (Mac only; you won’t need this on windows)
   * NB: these are just a few useful operators, there are many others!
 * So, a basic UNIX command that lists file details and the hidden files is `ls -la`.
-* You can further define a specific path if you want the command to list files in another directory: `la -la /{MY Directory}/{MY subdirectory}`
+* You can further define a specific path if you want the command to list files in another directory: `ls -la /{MY Directory}/{MY subdirectory}`
 * outputting lists (print to file: `>`)
 
 ### Filters

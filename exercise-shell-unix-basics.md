@@ -30,13 +30,15 @@ Finally, **arguments** provide the program with information and input,
 often a file or file path. For example, `ls` can be supplied with a filepath of the 
 location where you want list the files.
 
-There are many commands, some of which are covered below. It can be confusing at first
+There are many commands, a few of which are covered below. It can be confusing at first
 to remember all of the different commands, but don't worry - you're not alone, and
 there are a lot of options to find out more information. One easy way to get more
 details within the shell is to use `man` (short for manual), which will bring up
 documentation for the command, which you have provided as an argument. For example,
 `man find` tells you all about the ways you can use `find`. There are also many helpful 
-resources, some of which are listed at the end of this document.
+resources, some of which are listed at the end of this document. If you're running on 
+Git Bash (or other Windows flavors of the command line), you can use the option `-h` or 
+`--help` on many commands to display similar instructions or explanation.
 
 ### Navigation
 

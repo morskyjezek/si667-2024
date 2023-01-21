@@ -1,0 +1,3 @@
+./Bundle-web-files-small/image/1005107061.tif
+./density.tiff
+./OfficeXPcdArtifact.tiff

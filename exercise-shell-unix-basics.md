@@ -148,7 +148,13 @@ character f (`f?`). In plain language, this expression will look in the current 
 search all of the files, and return matches for files ending with `.tif` or `.tiff`, which
 are both likely possible extensions for a tif file. 
 
-_[TODO - GREP]_
+_[TODO - GREP, FILE, MD5]_
+
+### Other useful commands for working with text data
+
+* `sed` - the "stream editor" command allows you to efficiently remove text by line, filter particular characters using regular expressions, etc. 
+* `tr` - the "translate" allows for use of regular expressions and the conversion, or easy removal, of particular character strings; can be useful for removing punctuation, converting upper to lower case, etc. 
+* `awk` - useful for pulling information from files with data in standard formats on each line, among other things (for example, fixed-width data, or csvs); more complicated and expansive than `cut`.
 
 ### Other commands useful for inspecting files and the operating system
 

@@ -171,29 +171,20 @@ _[TODO - GREP, FILE, MD5]_
 * In performing preservation actions, you typically want everything to be reversible and tested in advance. Reversibility is not a hallmark of the command line (nor should it be assumed in a GUI environment).
 * Don't be afraid of the command line, do be cautious: there are not always built-in safeguards as in the GUI environment. If you delete something from the command line, for example, it will not be moved to the trash before deletion - it will be removed immediately. This is not a cause for alarm, but it is a reminder to make sure you are doing exactly what you want, know how to do it (or ask someone who does), and don't proceed too quickly.
 
-## Lab Activity
+## Lab 2 Activities
 
-**Answer these questions for January 24:**
+**Answer these questions for January 23:**
 
 1. Imagine that you have opened a window that gives access to the command line. What command would you use to determine your current location (current path address)?
 1. What command would you use to move to another directory or folder?
 1. What command would you use to list the contents of the directory or folder?
-1. Can you get a basic list and an advanced list (that shows permissions, file size, path, etc)? What options would you use to generate the advanced list?
+1. You can request a basic list (names of files and directories) and an advanced list (that shows permissions, file size, path, etc)? What command and options would you use to generate the basic list? What commands and options generate the advanced list?
 1. What are the `.` and `..` directories?
-1. Use the `ls` command, a filter (`*`), and a pipe to count all of the text files in the directory. What command are you using? How would you modify this to look in the subdirectories? How could you modify this to look for other file types? 
+1. Use the `ls` command with a filter (`*`) to determine how many `.jpg` files are in the top directory of this repository. What is the command? How many `.jpg` files are there? 
 1. In what sorts of situations do you think that the command line interface would be useful or advantageous over the GUI? Give at least one example.
 1. Do you feel more comfortable using the command line? Why or why not?
 
-**Answer these questions for a future lab:**
-
-1. Use the command line to generate a list of files in a directory, then output that list to a file. List the command that you would use on your system in your answer (and specify what system you’re using).
-1. Above and in class we used the `find` command. Look at the find command `find . -type f -name '*.txt'` (described above). What would you expect the output of this command to be? Use your knowledge from our discussion, or test this in the shell to see what happens.
-1. Use the commands `wc`, `sort`, and a pipes to devise a command that can list the `txt` files in the directory, and determine the longest and shortest files?   
-
-**A future lab, following coverage of find, grep, and regex:**
-
-1. Devise a way to use `find`, `grep`, `wc`, and a pipe to count how many csv files are in the sample file directory. Share your command, and share your count.   
-1. Same commands as above, but devise a command that will search for TIFF files in the directories, keeping in mind that these files may have an extension of `tif` or `tiff`. 
+1. BONUS: Are there any `.jpeg` files? How many? Are these "the same" kind of files as `.jpg`? How can you look for both kinds? 
 
 ### Credits and Additional Resources
 

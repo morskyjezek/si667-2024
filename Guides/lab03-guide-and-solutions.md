@@ -12,12 +12,14 @@
   * The first bytes in a file are sometimes a file signature. Can you identify a file signature? [Here is a file signature reference list](https://en.m.wikipedia.org/wiki/List_of_file_signatures)
   * Look for some of the other bit signposts, like `JFIF` in JPG, `0xFFD8` indicates SOI (Start of image), `0xFFDA` indicates SOS (Start of Scan), `0xFFD9` means EOI (End of image).
   * Make modifications using the hex editor. If you have trouble doing this you can also try using the text editor view in VSCode. Delete at least one byte, a section of bytes, or try rearranging bytes. Save the modified file with a new name.
+
+> Most of this question is exploratory. Answers will vary. The goal of the question is to view the file in a hex viewer, and to locate some of the important bytes in the file that help to distinguish different parts of the bitstream.
+
 3. Create checksums for the image files.
   * Use `md5` (Mac) or `md5sum` (Windows/GitBash) to create and record the checksum for each of the files.
   * If those tools aren't working for you, try out the Web-based checksum calculator linked above.
   * Goal: a report that lists the MD5 checksum and the file name, separated by a space, on a single line for each file.
 
-> Most of this question is exploratory.
 > But you may use the `md5` or `md5sum` commands to create checksums.
 > To create checksums for multiple files from the command line,
 > you can process multiple files using globbing filters like `*`;
